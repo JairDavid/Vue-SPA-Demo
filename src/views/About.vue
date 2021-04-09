@@ -32,6 +32,7 @@
       <v-container>
         <v-row>
           <v-col>
+            <div></div>
             <v-img
               contain
               max-height="450"
