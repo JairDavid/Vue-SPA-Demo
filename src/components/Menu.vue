@@ -29,9 +29,15 @@
         ><v-icon left>info</v-icon> Acerca de
       </v-btn>
     </v-app-bar>
+    
+
     <v-main>
+
       <router-view> </router-view>
+
     </v-main>
+
+
     <div>
       <v-footer padless color="dark">
         <v-col class="text-center" cols="12">

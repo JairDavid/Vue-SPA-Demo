@@ -5,9 +5,9 @@
       height="200px"
     ></v-img>
 
-    <v-card-title> Top western road trips </v-card-title>
+    <v-card-title>{{title}}</v-card-title>
 
-    <v-card-subtitle> 1,000 miles of wonder </v-card-subtitle>
+    <v-card-subtitle>{{subtitle}}</v-card-subtitle>
 
     <v-card-actions>
       <v-btn color="orange lighten-2" text> Explore </v-btn>
@@ -18,6 +18,13 @@
 </template>
 <script>
 export default {
-  name: "Tarjeta"
+  name: "Tarjeta",
+  data:()=>({
+    title:"Titulo del card en pantalla",
+    subtitle:"Subtitulo del card en pantalla"
+  }),
+  methods:{
+    //
+  }
 };
 </script>
