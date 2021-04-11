@@ -16,14 +16,19 @@ const routes = [
     component: () => import('../views/About.vue')
   },
   {
-    path:'/categories',
-    name:'Categories',
-    component:() =>import('../views/Categories.vue')
+    path: '/categories',
+    name: 'Categories',
+    component: () => import('../views/Categories.vue')
   },
   {
-    path:'/explore',
-    name:'Explore',
-    component:() =>import('../views/Explore.vue')
+    path: '/explore',
+    name: 'Explore',
+    component: () => import('../views/Explore.vue')
+  },
+  {
+    path: '*',
+    name: 'NotFound',
+    component: () => import('../views/NotFound.vue')
   }
 ]
 
