@@ -1,4 +1,4 @@
-# Vue SPA testing deployment
+# Vue SPA Demo
 this project was created with the purpose of being deployed on a test server with Nginx
 
 ## Project setup
